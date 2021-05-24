@@ -1,0 +1,11 @@
+.grid-display {
+    display: grid;
+}
+
+.list-display {
+    display: flex;
+}
+
+.mobile-grid-display {
+    display: grid;
+}
