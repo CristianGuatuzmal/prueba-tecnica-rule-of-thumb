@@ -70,11 +70,19 @@ hr[role="separator"] {
   background-color: rgba(var(--color-green-positive), .8);
 }
 
+.icon-button[aria-label="thumbs up no hover"] {
+  background-color: rgba(var(--color-green-positive), .8);
+}
+
 .icon-button[aria-label="thumbs up"]:hover {
   background-color: rgba(var(--color-green-positive), 1);
 }
 
 .icon-button[aria-label="thumbs down"] {
+  background-color: rgba(var(--color-yellow-negative), .8);
+}
+
+.icon-button[aria-label="thumbs down no hover"] {
   background-color: rgba(var(--color-yellow-negative), .8);
 }
 
@@ -389,7 +397,7 @@ hr[role="separator"] {
 }
 
 main[role="main"] {
-  padding: 0 1rem;
+  padding: 0;
   margin-top: 2rem;
 }
 

@@ -1,11 +1,41 @@
 .grid-display {
     display: grid;
+    column-gap: 21px;
+    row-gap: 21px;
+    grid-template-columns: repeat(auto-fill, 350px);
+    justify-content: center;
 }
 
 .list-display {
     display: flex;
+    flex-direction: column;
 }
 
 .mobile-grid-display {
-    display: grid;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.rulings-header {
+    display: flex;
+}
+
+.separator {
+    flex: 1 0 auto;
+}
+
+.displaying-select {
+    width: 173px;
+    height: 36px;
+    border-radius: 0;
+    font-size: 13.5px;
+    font-weight: 400;
+}
+
+.displaying-select option {
+    width: 173px;
+    height: 36px;
+    border-radius: 0;
+    border: solid black 2px;
+    padding: 4px;
 }

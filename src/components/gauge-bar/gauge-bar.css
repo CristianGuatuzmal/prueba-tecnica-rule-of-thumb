@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+}
+
+.percentage-bar {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    align-items: center;
+
+}
+
+.positive-votes img {
+    margin-right: 6px;
+}
+
+.negative-votes img {
+    margin-left: 6px;
+}
+
+.positive-votes {
+    background: rgba(60, 187, 180, 0.6);
+    text-align: left;
+    flex-direction: row;
+    padding-left: 12px;
+}
+
+.negative-votes {
+    background: rgba(249, 173, 29, 0.6);
+    text-align: right;
+    flex-direction: row-reverse;
+    padding-right: 12px;
+}
